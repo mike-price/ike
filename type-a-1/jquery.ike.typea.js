@@ -1,3 +1,15 @@
+/*!
+ * ike HTML5,CSS3,Javascript Robot
+ *
+ * Runs on jQuery
+ * http://jquery.com/
+ *
+ *
+ * Copyright 2012 Michael Price
+ *
+ * Date: 11/14/2012
+ */
+
 //ike type-a v0.1 library
 //jQuery plugin that powers ike the html robot
 (function( $ ) 

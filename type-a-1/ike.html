@@ -1,8 +1,32 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="assets/css/robot.css" />
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.min.css" rel="stylesheet" />
 		<script type="text/javascript" src="jquery.js"/></script>
+		<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="jquery.ike.typea.js"/></script>
+
+		<style type="text/css">
+				body{
+					margin-top: 80px !important;
+					margin-left:300px !important;
+					margin-right:auto;
+				}
+
+				pre{
+					width:600px;
+				}
+		</style>
+		<script type="text/javascript">
+			//demo showing ike's abilities
+			$(document.body).ready(function(){
+				//take the attribute from the button and pass it to the plugin to make ike do something
+				$('button').click(function()
+				{
+						$('div.robo-proto').ike('command',$(this).attr('action'));
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div class="robo-proto">
@@ -12,5 +36,21 @@
 		<script type="text/javascript">
 			$('div.robo-proto').ike();
 		</script>
+
+		<div class="control-panel">
+			<div>Commands</div>
+			
+			<pre>If you are using Google Chrome, you can click the microphone above ike and say any of the commands listed below to make ike do something</pre>
+
+			<pre>All of ike's commands are JSON based so you can create your own custom commands as well.</pre>
+			<button class="btn" action="dance">Dance</button>
+			<button class="btn" action="march">March</button>
+			<button class="btn" action="freeze">Freeze!</button>
+			<button class="btn" action="hello">Say Hello</button>
+			<button class="btn" action="turbo">Go Crazy!</button>
+			<button class="btn" action="panic">Panic!</button>
+			<button class="btn" action="robot">Do the robot</button>
+			<button class="btn" action="shrug">Shrug</button>
+		</div>
 	</body>
 </html>
