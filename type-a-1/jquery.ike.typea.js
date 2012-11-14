@@ -1,4 +1,5 @@
 //ike type-a v0.1 library
+//jQuery plugin that powers ike the html robot
 (function( $ ) 
 {
     var meths = {};
