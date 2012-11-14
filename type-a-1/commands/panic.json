@@ -1,0 +1,21 @@
+{
+	"name":"wave",
+	"speed": "400",
+	"commands": 
+	[
+		{
+			"action":"rotate", 
+			"params":
+			[
+				{"frame":"arm-l-0", "value":"120"}, {"frame":"arm-l-1","value":"45"},
+				{"frame":"arm-r-0", "value":"-120"}, {"frame":"arm-r-1","value":"-45"}
+			],
+			"time":".5"
+		},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"100"},{"frame":"arm-r-1","value":"-100"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"45"},{"frame":"arm-r-1","value":"-45"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"100"},{"frame":"arm-r-1","value":"-100"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"45"}, {"frame":"arm-r-1","value":"-45"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-0","value":"0"},{"frame":"arm-l-1","value":"0"},{"frame":"arm-r-0","value":"0"},{"frame":"arm-r-1","value":"0"}],"time":"1"}
+	]
+}

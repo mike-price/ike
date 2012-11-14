@@ -1,0 +1,17 @@
+{
+	"name":"reach",
+	"speed": "1000",
+	"commands": 
+	[
+		{
+			"action":"rotate", 
+			"params":[{"frame":"arm-l-0", "value":"150"}, {"frame":"arm-l-1","value":"35"}],
+			"time":"1"
+		},
+		{
+			"action":"rotate", 
+			"params":[{"frame":"arm-l-0", "value":"0"}, {"frame":"arm-l-1","value":"0"}],
+			"time":"3"
+		}
+	]
+}

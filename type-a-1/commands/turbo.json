@@ -1,0 +1,21 @@
+{
+	"name":"turbo",
+	"speed": "400",
+	"commands": 
+	[
+		{
+			"action":"rotate", 
+			"params":[{"frame":"arm-l-0", "value":"120"}, {"frame":"arm-l-1","value":"45"}],
+			"time":".5"
+		},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"100"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"45"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"100"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"45"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"100"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"45"}],"time":"1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"1440"}],"time":"1"},
+
+		{"action":"rotate", "params":[{"frame":"arm-l-0","value":"90"},{"frame":"arm-l-1","value":"-1440"}],"time":"1"}
+	]
+}

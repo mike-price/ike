@@ -1,0 +1,140 @@
+{
+		"name":"type-a.1",
+		"height": "400px",
+		"width":"300px",
+		"speech-to-text-command": "say",
+		"components":
+		{
+			"speech-input":{"_type":"input x-webkit-speech","_class":"speech-input"},
+			
+			"speech-box":
+			{
+				"_type":"div",
+				"_class":"speech-box",
+				"components":
+				[
+					{
+						"_type":"p",
+						"_class":"speech",
+						"components":
+						[
+							{"_type":"span","_class":"speech-text"}
+						]
+					}
+				]
+			},
+
+			"arm-l" : 
+			{
+				"_type":"div",
+				"_class": "robo-arm-l-frame",
+				"components":
+				[
+					{"_type":"div","_class":"robo-arm-l shoulder robo-component"},
+					{"_type":"div","_class":"robo-arm-l bicep robo-component"},
+					{
+						"_type":"div",
+						"_class":"robo-arm-l-forearm-frame",
+						"components":
+						[
+							{"_type":"div","_class":"robo-arm-l elbow robo-component"},
+							{"_type":"div","_class":"robo-arm-l forearm robo-component"},
+							{"_type":"div","_class":"robo-arm-l hand robo-component"}		
+						]
+					}
+				]
+			},
+			"arm-r" :
+			{
+				"_type":"div",
+				"_class": "robo-arm-r-frame",
+				"components":
+				[
+					{"_type":"div","_class":"robo-arm-r shoulder robo-component"},
+					{"_type":"div","_class":"robo-arm-r bicep robo-component"},
+					{
+						"_type":"div",
+						"_class":"robo-arm-r-forearm-frame",
+						"components":
+						[
+							{"_type":"div","_class":"robo-arm-r elbow robo-component"},
+							{"_type":"div","_class":"robo-arm-r forearm robo-component"},
+							{"_type":"div","_class":"robo-arm-r hand robo-component"}		
+						]
+					}
+				]
+			},
+			"head" :
+			{
+				"_type":"div",
+				"_class": "robo-head robo-component",
+				"components":
+				[
+					{
+						"_type":"div",
+						"_class":"robo-ear-l",
+						"components":
+						[
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""}
+						]
+					},
+					{
+						"_type":"div",
+						"_class":"robo-ear-r",
+						"components":
+						[
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""}
+						]
+					},
+					{"_type":"div","_class":"robo-eye-l"},
+					{"_type":"div","_class":"robo-eye-r"},
+					{
+						"_type":"div",
+						"_class":"robo-mouth",
+						"components":
+						[
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""},
+							{"_type":"span", "_class":""}
+						]
+					}
+				]
+			},
+			"body":
+			{
+				"_type":"div",
+				"_class":"robo-body robo-component",
+				"components":
+				[
+					{
+						"_type":"span",
+						"_class":"hatch",
+						"components":
+						[
+							{"_type":"span","_class":"handle"}
+						]
+					}
+				]
+			},
+			"leg-l":
+			{
+				"_type":"div",
+				"_class":"robo-leg-l robo-component"
+			},
+			"leg-r":
+			{
+				"_type":"div",
+				"_class":"robo-leg-r robo-component"
+			}
+		}
+}

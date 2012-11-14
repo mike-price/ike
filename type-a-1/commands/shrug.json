@@ -1,0 +1,14 @@
+{
+	"name":"shrug",
+	"speed": "800",
+	"commands": 
+	[
+		
+		{"action":"moveXY", "params":[{"frame":"arm-l-0","value":{"x":4,"y":-10}},{"frame":"arm-r-0","value":{"x":-4,"y":-10}}],"time":".1"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"45"},{"frame":"arm-r-1","value":"-45"},{"frame":"hand-l", "value":"180"},{"frame":"hand-r","value":"-90"}],"time":".1"},
+		
+		{"action":"moveXY", "params":[{"frame":"arm-l-0","value":{"x":0,"y":0}},{"frame":"arm-r-0","value":{"x":0,"y":0}}],"time":".8"},
+		{"action":"rotate", "params":[{"frame":"arm-l-1","value":"0"}, {"frame":"arm-r-1","value":"0"},{"frame":"hand-l", "value":"45"},{"frame":"hand-r","value":"45"}],"time":".5"}
+
+	]
+}

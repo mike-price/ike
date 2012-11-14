@@ -1,0 +1,148 @@
+{
+	"name":"dance",
+	"speed": "400",
+	"commands": 
+	[
+		{
+			"action":"rotate",
+			"params":
+			[
+				{"frame":"arm-l-0","value":"90"},
+				{"frame":"arm-l-1","value":"90"},
+				{"frame":"arm-r-0","value":"-90"}
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"-30"}
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"-15"} 
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"-30"}
+			],
+			"time":".8"
+		},
+
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"0"} 
+			],
+			"time":".8"
+		},
+
+		{
+			"action":"rotate",
+			"params":
+			[
+				{"frame":"arm-l-1","value":"0"},
+				{"frame":"arm-r-1","value":"-90"}
+			],
+			"time":".8"
+		},
+		
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-r-0", "value":"-30"}
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-r-0", "value":"-15"} 
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-r-0", "value":"-30"}
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-r-0", "value":"0"} 
+			],
+			"time":".8"
+		},
+
+
+		{
+			"action":"rotate",
+			"params":
+			[
+				{"frame":"arm-l-1","value":"90"},
+				{"frame":"arm-r-1","value":"0"}
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"-30"}
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"-15"} 
+			],
+			"time":".8"
+		},
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"-30"}
+			],
+			"time":".8"
+		},
+
+		{
+			"action":"moveY", 
+			"params":
+			[
+				{"frame":"leg-l-0", "value":"0"}
+			],
+			"time":".8"
+		},
+
+		{
+			"action":"rotate",
+			"params":
+			[
+				{"frame":"arm-l-0","value":"0"},
+				{"frame":"arm-l-1","value":"0"},
+				{"frame":"arm-r-0","value":"0"}
+			],
+			"time":".8"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name":"march",
+	"speed": "400",
+	"commands": 
+	[
+		{"action":"moveY", "params":[{"frame":"leg-l-0", "value":"-30"}],"time":"1"},
+		{"action":"moveY", "params":[{"frame":"leg-l-0", "value":"0"}, {"frame":"leg-r-0","value":"-30"}],"time":"1"},
+
+		{"action":"moveY", "params":[{"frame":"leg-l-0", "value":"-30"}, {"frame":"leg-r-0","value":"0"}],"time":"1"},
+		{"action":"moveY", "params":[{"frame":"leg-l-0", "value":"0"}, {"frame":"leg-r-0","value":"-30"}],"time":"1"},
+
+		{"action":"moveY", "params":[{"frame":"leg-l-0", "value":"-30"}, {"frame":"leg-r-0","value":"0"}],"time":"1"},
+		{"action":"moveY", "params":[{"frame":"leg-l-0", "value":"0"}, {"frame":"leg-r-0","value":"-30"}],"time":"1"},
+
+		{"action":"moveY", "params":[{"frame":"leg-l-0", "value":"0"}, {"frame":"leg-r-0","value":"0"}],"time":"1"}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name" : "Ike",
+	"pose":
+	{
+		"arm-l-0": "0",
+		"arm-l-1": "0",
+		"arm-r-0": "0",
+		"arm-r-1": "0",
+		"leg-l-0", "0",
+		"leg-r-0", "0"
+	}
+	"style":
+	{
+		"eye-color":"#5676ce",
+		"shoulder-color":"",
+		"elbow-color":"#5676ce",
+		"hand color":"#5676ce"
+
+	},
+   "commands":{}
+}

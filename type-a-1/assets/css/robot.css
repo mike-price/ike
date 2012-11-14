@@ -1,0 +1,573 @@
+/**
+	Name: robot.css;
+	Description: Ike Type-A1;
+	Author: Michael Price;
+**/
+
+/*****************Robot Top Settings******************/
+body{
+	margin-top: 80px;
+	margin-left:300px;
+	margin-right:auto;
+}
+div.robo-proto
+{
+	padding:0px;
+
+	/*height: 200px; width:150px;*/
+	height: 400px; width:300px;
+	/*height: 800px; width:600px;*/
+}
+
+
+div.robo-component
+{
+	border: 1px solid #bbb;
+	/*background-color:#ccc;*/
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+div.robo-component.shoulder{
+	/* background-color: #d73; */
+}
+
+div.robo-component.elbow{
+	/* background-color: #d73; */
+}
+
+div.robo-component.hand{
+	background:none;
+}
+/** Robot head **/
+div.robo-head
+{
+	height:20%;width: 30%;
+	margin: 0px auto;
+	border-radius:20%;
+}
+
+/** Robot Ear Left **/
+div.robo-ear-l
+{
+	display:inline-block;
+	vertical-align: middle;
+	float:left;
+	height:20%; width: 35%;
+	
+	margin-top: 30%;
+	margin-left: -36%;
+}
+
+div.robo-ear-l span
+{
+	display:inline-block;
+}
+
+div.robo-ear-l span:first-child
+{
+	float: right;
+	clear:none;
+	margin-top:24%;
+	height:1%; width:53%;
+	max-height: 1px;
+	border: 1px solid #000;
+	border-radius: 100%;
+}
+
+div.robo-ear-l span:nth-child(2)
+{
+	float: right;
+	margin-top: 5%;
+	margin-right: -45%;
+	height: 90%; width:1%;
+	max-width:1px;
+	border: 1px solid #000;
+}
+
+div.robo-ear-l span:nth-child(3)
+{
+	float: right;
+	margin-top: 10%;
+	margin-right: -35%;
+	height: 60%; width:1%;
+	max-width:1px;
+	border: 1px solid #000;	
+}
+
+div.robo-ear-l span:nth-child(4)
+{
+	float: right;
+	margin-top: 18%;
+	margin-right: -25%;
+	height: 30%; width:1%;
+	max-width:1px;
+	border: 1px solid #000;	
+}
+
+div.robo-ear-l span:last-child
+{
+	float: left;
+	clear: none;
+	margin-top:15%;
+	margin-left: 10%;
+	height:40%; width: 20%;
+	border: 1px solid #000;
+	border-radius: 100%;
+	background-color: red;
+}
+
+/** Robot Ear Right **/
+div.robo-ear-r
+{
+	display:inline-block;
+	vertical-align: middle;
+	float:right;
+	height:20%; width: 35%;
+	
+	margin-top: 30%;
+	margin-right: -36%;
+}
+
+div.robo-ear-r span
+{
+	display:inline-block;
+}
+
+div.robo-ear-r span:first-child
+{
+	float: left;
+	margin-top:24%;
+	height:1%; width:53%;
+	border: 1px solid #000;
+	border-radius: 100%;
+}
+
+div.robo-ear-r span:nth-child(2)
+{
+	float: left;
+	margin-top: 5%;
+	margin-left: -45%;
+	height: 90%; width:1%;
+	border: 1px solid #000;
+}
+
+div.robo-ear-r span:nth-child(3)
+{
+	float: left;
+	margin-top: 10%;
+	margin-left: -35%;
+	height: 60%; width:1%;
+	border: 1px solid #000;	
+}
+
+div.robo-ear-r span:nth-child(4)
+{
+	float: left;
+	margin-top: 18%;
+	margin-left: -25%;
+	height: 30%; width:1%;
+	border: 1px solid #000;	
+}
+
+div.robo-ear-r span:last-child
+{
+	float: right;
+	margin-top:15%;
+	margin-right: 12%;
+	height:40%; width: 20%;
+	border: 1px solid #000;
+	border-radius: 100%;
+	background-color: red;
+}
+
+
+/*****************Robot Eyes******************/
+div.robo-eye-l
+{
+	content:"";
+	display:inline-block;
+	background-color: #5676ce;
+	padding:0px;
+	height:20%;width: 20%;
+	border:1px solid #000;
+	border-radius: 100%;
+	color:red;
+	z-index:999;
+	float:left;
+	margin-top:20%;
+	margin-left:16%;
+}
+
+div.robo-eye-r
+{
+	content:"";
+	display:inline-block;
+	background-color: #5676ce;
+	padding:0px;
+	height:20%;width: 20%;
+	border:1px solid #000;
+	border-radius: 100%;
+	color:red;
+	z-index:999;
+	float:right;
+	margin-top:20%;
+	margin-right:16%;
+}
+
+/*****************Robot Mouth******************/
+div.robo-mouth
+{
+	height: 15%; width: 50%;
+	margin: 55% auto;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+div.robo-mouth span
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	display:inline-block;
+	width:18%;height:100%;
+	border-right: 1px solid #000;
+}
+
+div.robo-mouth span:last-child
+{
+	border:none;
+}
+
+/*****************Robot Arm Left******************/
+div.robo-arm-l-frame
+{
+	margin-top:-28%;
+	margin-left:20%;
+	float:left;
+	height:50%; width: 8%;
+	/*border: 1px solid #000;*/
+
+	border-radius: 20px;
+	display:inline-block;
+	vertical-align:middle;
+	padding-top: 58%;
+
+	-webkit-transition:All 1s ease;
+}
+
+div.robo-arm-l-frame:active
+{
+	-webkit-transform: rotate(100deg);
+}
+
+div.robo-arm-l-forearm-frame
+{
+	margin-top: -200%;
+	height: 120%;
+	-webkit-transition:All 1s ease;
+}
+
+div.robo-arm-l-forearm-frame:active
+{
+	-webkit-transform: rotate(45deg);
+}
+
+div.robo-arm-l
+{
+	float:left;
+	width: 100%;
+	
+	display:inline-block;
+}
+
+div.robo-arm-l.shoulder
+{	
+	height:12%;
+	border-radius: 100%;
+	position: relative;
+}
+
+div.robo-arm-l.bicep
+{
+	height:25%;
+	border-radius: 20px;
+}
+
+div.robo-arm-l.elbow
+{
+	margin-left: 25%;
+	height:5%; width:50%; 
+	border-radius: 50%;
+}
+
+div.robo-arm-l.forearm
+{
+	height:25%;
+	border-radius: 20px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+div.robo-arm-l.hand
+{
+	height:10%;
+	width: 90%;
+	border-radius: 5px;
+	-webkit-transform: rotate(45deg) ;
+	-moz-transform: rotate(45deg) ;
+	-o-transform: rotate(45deg) ;
+	border-top: 4px solid #5676ce;
+	border-left: 4px solid #5676ce;
+	border-bottom: 4px solid #5676ce;
+	border-right: 1px solid transparent;
+	background-color:transparent;
+}
+
+/*****************Robot Arm Right******************/
+div.robo-arm-r-frame
+{
+	margin-top: -28%;
+	margin-right: 20%;
+	float:right;
+	height:50%; width: 8%;
+	border-radius: 20px;
+	display:inline-block;
+	vertical-align:middle;
+	padding-top: 58%;
+	-webkit-transition:All 1s ease;
+}
+
+div.robo-arm-r-forearm-frame
+{
+	margin-top: -200%;
+	height: 120%;
+	-webkit-transition:All 1s ease;
+}
+
+div.robo-arm-r-forearm-frame:active
+{
+	-webkit-transform: rotate(-45deg);
+}
+
+div.robo-arm-r-frame:active
+{
+	-webkit-transform: rotate(-180deg);
+}
+
+div.robo-arm-r
+{
+	float:right;
+	width: 100%;
+	display:inline-block;
+}
+
+div.robo-arm-r.shoulder
+{	
+	height:12%;
+	border-radius: 100%;
+	position: relative;
+}
+
+div.robo-arm-r.bicep
+{
+	height:25%;
+	border-radius: 20px;
+}
+
+div.robo-arm-r.elbow
+{
+	margin-right: 25%;
+	height:5%; width:50%; 
+	border-radius: 50%;
+
+}
+
+div.robo-arm-r.forearm
+{
+	height:25%;
+	border-radius: 20px;
+	margin-right:10%;
+	width:80%;
+}
+
+div.robo-arm-r.hand
+{
+	height:10%;
+	width: 90%;
+	border-radius: 5px;
+	-webkit-transform: rotate(45deg) ;
+	-moz-transform: rotate(45deg) ;
+	-o-transform: rotate(45deg) ;
+	border-top: 4px solid #5676ce;
+	border-right: 4px solid #5676ce;
+	border-bottom: 1px solid transparent;
+	border-left:4px solid #5676ce;
+	background-color:transparent;
+}
+
+/*****************Robot Legs******************/
+
+div.robo-leg-l
+{
+	height: 40%; width: 15%;
+	float:left;
+	margin-top: -1%;
+	margin-left: 5%;
+	border-radius: 15px;
+	position: relative;
+	-webkit-transition:All 1s ease;
+	
+}
+
+div.robo-leg-l:active
+{
+	-webkit-transform: translate(0px, -30px);	
+}
+
+
+div.robo-leg-r
+{
+
+	height: 40%; width: 15%;
+	float:right;
+	margin-top: -1%;
+	margin-right: 5%;
+	border-radius: 15px;
+	
+	position: relative;
+	-webkit-transition:All 1s ease;
+}
+
+div.robo-leg-r:active
+{
+	-webkit-transform: translate(0px, -30px);	
+}
+
+/*****************Robot Body******************/
+
+div.robo-body
+{
+	height:32%;width:40%;
+ 	margin: 2% auto;
+ 	
+	border-radius:15%;
+	overflow:hidden;
+	position: relative;
+	z-index:200;	
+	
+}
+
+div.robo-body span.hatch
+{
+	display:inline-block;
+	height: 70%;width:70%;
+	margin-top: 15%;
+	margin-left: 15%;
+	border: 1px solid #ddd;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+
+div.robo-body span.hatch span.handle
+{
+	margin-top: 35%;
+	margin-right: 5%;
+	float:right;
+	display:inline-block;
+	height: 30%;width: 10%;
+	border: 1px solid #ddd;
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 20%;
+	/* background-color: #5676ce; */
+}
+
+
+
+/** speach bubble **/
+
+p.speech
+{
+	display:none;
+	position: relative;
+	width: 90%;
+	height: 30%;
+	padding:10px;
+	text-align: left;
+	background-color: #fff;
+	border: 8px solid #666;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	overflow: visible;
+	/*-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;*/
+}
+
+p.speech:before
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 70%;
+	top: 100%;
+	border: 18px solid;
+	border-color: #666 transparent transparent #666;
+}
+
+p.speech:after
+{
+	content: ' ';
+	display: block;
+	position: absolute;
+	width: 0;
+	height: ;
+	left: 72%;
+	top: 100%;
+	border: 8px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+p.speech span.speech-text
+{
+	display: inline-block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size: 70%;
+	-webkit-transition:All .2s ease-in-out;
+}
+
+
+/** speach bubble **/
+
+
+input.speech-input
+{
+	font-size: 25px;
+    width: 25px;
+    height: 25px;
+    cursor:pointer;
+    color:#fff;
+    border: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left:46%;
+    outline: none;
+    display: inline-block;
+    background: transparent;
+}

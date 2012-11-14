@@ -1,0 +1,16 @@
+{
+	"head"    : "div.robo-head",
+	"speech-box": "span.speech-text",
+	
+	"arm-l-0" : "div.robo-arm-l-frame",
+	"arm-l-1" : "div.robo-arm-l-forearm-frame",
+	
+	"arm-r-0" : "div.robo-arm-r-frame",
+	"arm-r-1" : "div.robo-arm-r-forearm-frame",
+
+	"hand-l":"div.robo-arm-l.hand",
+	"hand-r":"div.robo-arm-r.hand",
+	
+	"leg-l-0" : "div.robo-leg-l",
+	"leg-r-0" : "div.robo-leg-r"
+}
