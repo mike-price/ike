@@ -228,7 +228,7 @@
         
         $this.find('input.speech-input').live('webkitspeechchange',function(el,ev)
         {
-            var command = $this.find('input.speech-input').val();
+            var command = $this.find('input.speech-input').val().toLowerCase();
             var commands = command.split(" ");
 
             console.log(commands)
